@@ -1,0 +1,16 @@
+table {
+	/*thickness of boder */
+	/*border : kich thuoc kiểu màu*/
+	border: 1px solid currentColor;
+}
+td , th{
+	border: 1px solid currentColor;
+	/*arrange on clock role*/
+	/*khoang cach tu table den nội dung ở trong*/
+	padding : 10px 20px 30px 40px;
+	/*Khoang cach từ table ra goai */
+	margin : 2px ;
+}
+thead{
+	background-color: red;
+}

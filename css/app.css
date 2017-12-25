@@ -1,6 +1,9 @@
 body {
 	color : yellow;
 	background: orange;
+	font-family: "Arial" ,"Apple Garamond" , "Ubuntu";
+	font-size: 14px , 12;
+
 }
 p { 
 	text-align: justify;

@@ -8,3 +8,31 @@ body {
 p { 
 	text-align: justify;
 }
+
+a{
+	text-decoration: none;
+}
+video{
+	width:500px;
+}
+img{
+	width: 250px;
+	height: 200px;
+}
+/*change anchor when click visited*/
+/* a , a:visited , a:hover*/
+a, a:visited {
+	text-decoration: none;
+}
+/*change color when click*/
+a {
+	color : inherit;
+}
+
+a:visited {
+	color:currentColor;
+}
+
+a:hover {
+	color:yellow;
+}

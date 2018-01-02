@@ -1,6 +1,6 @@
 body {
 	color : #7FFFD4;
-	background: #008B8B;
+	background-color: #008B8B;
 	font-family: "Arial" ,"Apple Garamond" , "Ubuntu";
 	font-size: 14px 12;
 
@@ -9,9 +9,6 @@ p {
 	text-align: justify;
 }
 
-a{
-	text-decoration: none;
-}
 video{
 	width:500px;
 }

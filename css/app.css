@@ -2,12 +2,13 @@ body {
 	color : #7FFFD4;
 	background: #008B8B;
 	font-family: "Arial" ,"Apple Garamond" , "Ubuntu";
-	font-size: 14px 12;
+	font-size: 14px;
 
 }
 p { 
 	text-align: justify;
 }
+
 
 a{
 	text-decoration: none;
@@ -16,8 +17,9 @@ video{
 	width:500px;
 }
 img{
-	width: 250px;
-	height: 200px;
+
+	max-width:100%;
+	max-height:50%;
 }
 /*change anchor when click visited*/
 /* a , a:visited , a:hover*/
@@ -35,4 +37,12 @@ a:visited {
 
 a:hover {
 	color:yellow;
+}
+figure{
+	border:2px solid red;
+	width:100%;	
+	text-align: center;
+}
+figcaption{
+	text-align: center;
 }

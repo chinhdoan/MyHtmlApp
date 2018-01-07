@@ -1,6 +1,6 @@
 body {
 	color : #7FFFD4;
-	background: #008B8B;
+	background-color: #008B8B;
 	font-family: "Arial" ,"Apple Garamond" , "Ubuntu";
 	font-size: 14px;
 
@@ -9,39 +9,36 @@ p {
 	text-align: justify;
 }
 
-
-a{
+a{	
+	color : inherit;
 	text-decoration: none;
 }
+
 video{
-	width:500px;
+	width:50%;
 }
 img{
-
-	max-width:100%;
+	padding:5%;
+	max-width:50%;
 	max-height:50%;
 }
 /*change anchor when click visited*/
 /* a , a:visited , a:hover*/
-a, a:visited {
-	text-decoration: none;
-}
-/*change color when click*/
-a {
-	color : inherit;
-}
-
 a:visited {
+	text-decoration: none;
 	color:currentColor;
 }
+/*change color when click*/
 
 a:hover {
 	color:yellow;
 }
 figure{
-	border:2px solid red;
 	width:100%;	
 	text-align: center;
+	margin:0;
+	padding:0;
+
 }
 figcaption{
 	text-align: center;

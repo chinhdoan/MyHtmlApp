@@ -5,12 +5,11 @@
 		<div id="header">
 			<meta charset="UTF-8">
 			<title>hello world</title>
+			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 			<link rel="stylesheet" type="text/css" href="css/app.css">
 			<link rel="stylesheet" type="text/css" href="css/index.css">
-			<div id="header">
 		</div>
 	</head>
-
 
 	<body>
 		
@@ -35,7 +34,7 @@
 			Người tôi yêu quý và ngưỡng mộ đó là
 		</p>
 		
-		<ul>
+		<ul id="people-menu">
 			
 			<li>
 				<a href="#dx-chinh">DxChinh</a>			
@@ -50,20 +49,20 @@
 			</li>
 
 			<li>
-				<a href="#pew-pew">PewPew</a>
+				<a  href="#pew-pew">PewPew</a>
 			</li>
 		
 		</ul>
 
-		<div id="ho-chi-minh" class="people">
+		<div id="ho-chi-minh" class="people hidden">
 			<div class="name">
-			<figure>
-				<figcaption>
-					<img id="img-hcm" src="image/hochiminh.jpg"></img>		
-					<h1>Hồ Chi Minh</h1>
-					<a href="#header">back to top</a>
-				</figcaption>
-			</figure>
+				<figure>
+					<figcaption>
+						<img id="img-hcm" src="image/hochiminh.jpg"></img>		
+						<h1>Hồ Chi Minh</h1>
+						<a href="#header">back to top</a>
+					</figcaption>
+				</figure>
 			</div>
 			<div class="biography">
 				<figure>
@@ -76,7 +75,7 @@
 		</div>
 
 
-		<div id="jeff-seid" class="people">
+		<div id="jeff-seid" class="people hidden">
 			<div class="name">
 				<figure>
 					<figcaption>
@@ -105,7 +104,7 @@
 		</div>
 
 
-		<div id="pew-pew" class="people">
+		<div id="pew-pew" class="people hidden">
 			<div class="name">
 				<figure>
 					<figcaption>
@@ -132,7 +131,7 @@
 			</div>
 		</div>
 
-		<div id="dx-chinh" class="people">
+		<div id="dx-chinh" class="people hidden">
 			<div class="name">
 				<figure>
 					<figcaption>
@@ -165,5 +164,6 @@
 				</figure>
 			</div>
 		</div>
+		<script type="text/javascript" src="scripts/index.js"></script>
 	</body>
 </html>

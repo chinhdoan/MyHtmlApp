@@ -2,14 +2,14 @@ table {
 	/*thickness of boder */
 	/*border : kich thuoc kiểu màu*/
 	background-color: #CD5C5C;
+	width:50%;
 }
-td , th{
+td,th{
 	/*arrange on clock role*/
 	/*khoang cach tu table den nội dung ở trong*/
-	padding: 1px;
-    text-align: center;
+	padding: 100px;
 	/*Khoang cach từ table ra goai */
-	margin : 1px ;
+	margin:1px;
 }
 thead{
 	background-color: #F08080;
@@ -20,3 +20,7 @@ tbody{
 a{
 	text-decoration: none;
 }
+
+@media screen 
+
+

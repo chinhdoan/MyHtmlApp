@@ -15,13 +15,23 @@ Hàm sự kiện 2
 	peopleMenu.addEventListener('mouseover' , Function(){
 
 	});
-*/
+*/	
+	//show by mouseover
 	peopleMenu.addEventListener('mouseover' , function(){
 		for( var i = peoples.length -1 ; i>=0 ; i--)
 		{
 			peoples[i].classList.remove('hidden');
 		}
-	});
-
+		});
+	//hide by clicking
+		peopleMenu.addEventListener('click' , function(){
+		for( var i = peoples.length -1 ; i>=0 ; i--)
+		{
+			peoples[i].classList.add('hidden');
+		}
+		});
 }
-
+       
+     
+ 
+ 

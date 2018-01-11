@@ -6,7 +6,6 @@ div > p {
 div.people{
 	overflow: auto;
 	background-color:#009999;
-	text-shadow: red;
 	border:2px solid currentcolor;
 	box-shadow: black;
 	border-style: ridge;
